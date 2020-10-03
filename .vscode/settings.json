@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu"
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnSave":true
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    }
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage":false,
+
+}
