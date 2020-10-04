@@ -7,6 +7,7 @@
   "workbench.settings.openDefaultSettings": true,
 
   "workbench.startupEditor": "newUntitledFile",
+
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 18,
