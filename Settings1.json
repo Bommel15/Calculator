@@ -1,0 +1,20 @@
+{
+  "python.pythonPath": "D:\\NewPrograms\\Python\\python.exe",
+  "python.formatting.provider": "black",
+  "workbench.colorTheme": "Predawn",
+  "workbench.iconTheme": "ayu",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 18,
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["Test Program"],
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true
+}
