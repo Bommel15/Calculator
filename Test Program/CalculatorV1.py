@@ -1,9 +1,9 @@
 print("Welcome to my shit calculator.")
-print("The program will prompt you to input two integers and an operator")
+print("The program will prompt you to input two numbers and an operator")
 
 while True:
     try:
-        Integer1Str = float(input("Please input the first integer: "))
+        Integer1Str = float(input("Please input the first number: "))
     except ValueError:
         print("Try again, this time with a number")
         continue
@@ -17,7 +17,7 @@ while not OpperatorStr in ["+", "-", "*", "/", "^"]:
 
 while True:
     try:
-        Integer2Str = float(input("Please input the second integer: "))
+        Integer2Str = float(input("Please input the second number: "))
     except ValueError:
         print("Try again, this time with a number")
         continue
