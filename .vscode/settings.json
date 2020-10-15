@@ -14,9 +14,7 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
   "python.testing.unittestEnabled": false,
-  "python.testing.pytestArgs": [
-    "Test Program"
-  ],
+  "python.testing.pytestArgs": ["Test Program"],
   "python.testing.nosetestsEnabled": false,
   "python.testing.pytestEnabled": true
 }
