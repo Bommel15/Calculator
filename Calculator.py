@@ -1,7 +1,8 @@
 #       Calculator V1 - Kevin Van Bommel | Oct 15, 2020
-while = True:
+programLoop = str
+while True:
+    print("Welcome to my shit calculator.")
     try:
-        print("Welcome to my shit calculator.")
         print("The program will prompt you to input two integers and an operator")
         while True:
             try:
@@ -28,13 +29,11 @@ while = True:
 
         # Calculations
 
-
         def addition():
             outputInt = float(Integer1Str) + float(Integer2Str)
             print("Hopefully my math isn't shite:")
             print("Your equation was: ", Integer1Str, OpperatorStr, Integer2Str)
             print(outputInt)
-
 
         def subtraction():
             outputInt = float(Integer1Str) - float(Integer2Str)
@@ -42,13 +41,11 @@ while = True:
             print("Your equation was: ", Integer1Str, OpperatorStr, Integer2Str)
             print(outputInt)
 
-
         def multiplication():
             outputInt = float(Integer1Str) * float(Integer2Str)
             print("Hopefully my math isn't shite:")
             print("Your equation was: ", Integer1Str, OpperatorStr, Integer2Str)
             print(outputInt)
-
 
         def division():
             outputInt = float(Integer1Str) / float(Integer2Str)
@@ -56,13 +53,17 @@ while = True:
             print("Your equation was: ", Integer1Str, OpperatorStr, Integer2Str)
             print(outputInt)
 
-
         def exponential():
             outputInt = float(Integer1Str) ^ float(Integer2Str)
             print("Hopefully my math isn't shite:")
             print("Your equation was: ", Integer1Str, OpperatorStr, Integer2Str)
             print(outputInt)
-
+            print ("Press enter to restart")
+            programLoop = input("Press any key to continue")
+            if programLoop == "":
+                break
+            else:
+                continue
 
         # Output
 
@@ -75,13 +76,5 @@ while = True:
         elif OpperatorStr == "/":
             division()
         elif OpperatorStr == "^":
-        exponential()
-programLoop = input("Press ENTER to do another calculation, otherwise press any key to exit.")) = ""
-if programLoop == "":
-    continue
-else:
-    break
-# OpperatorStr = input("Press any button")
-# while not OpperatorStr in ["+", "-", "*", "/", "^"]:
-#    print("Try again, this time with one of these symbols: + - * / ^")
-#    OpperatorStr = input("Please input the opperator: ")
+            exponential()
+        break
